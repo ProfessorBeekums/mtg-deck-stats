@@ -20,6 +20,8 @@ Simulation was completed!!!
 561  hands with  1 ["black"] lands, 1 ["green", "black"] lands, 1 ["green"] lands
 ```
 
+In this example, the most common hand for this deck is one where you get 1 black mana and 1 green mana. However, if you count up the lands, you're most likely to get a 3 land hand (743 + 732 + 561 > 1127).
+
 Dual lands are denoted by a JSON array of mana types. 
 
 E.g. if your deck consists of Golgori Guildgate and Woodland Cemetary, they both get grouped into `["green", "black"]`
